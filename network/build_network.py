@@ -420,9 +420,9 @@ def express_osm_file(file_name):
 
 
 
-    # junction_file_path = "junction.json"
-    # with open(junction_file_path, "wb") as junction_file:
-    #     json.dump(junction_dict, junction_file)
+    junction_file_path = "junction.json"
+    with open(junction_file_path, "w") as junction_file:
+        json.dump(junction_dict, junction_file)
 
     # for way_id, way in way_dict.items():
     #     sub_segment_dict[way_id] = way

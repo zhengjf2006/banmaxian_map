@@ -4,8 +4,8 @@ if __name__ == "__main__":
     # transition_probability = probability_function.get_gaussian_probability(50)
     # print transition_probability
     # exit(1)
-    area = "aa6"
-    osmfile = area + ".osm"
+    area = "hejian"
+    osmfile = "osm_raw/" + area + ".osm"
 
     network = build_network.build_network_topology(osmfile)
 
